@@ -1,6 +1,6 @@
 "use strict";
 
-const customLoggerPlugin = require("./custom-logger-plugin");
+const customLoggerPlugin = require("./eslint-plugin-custom-logger");
 
 module.exports = [
   {
