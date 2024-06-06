@@ -1,4 +1,4 @@
-const CustomLogger = {
+module.exports = CustomLogger = {
   getTimeStamp: () => {
     return new Date().toISOString();
   },
@@ -9,5 +9,3 @@ const CustomLogger = {
     console.error(`[${this.getTimeStamp()}]: ERROR ${errorMessage}`);
   },
 };
-
-export default CustomLogger;
