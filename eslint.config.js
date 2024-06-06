@@ -11,7 +11,7 @@ module.exports = [
     },
     plugins: { "custom-logger": customLoggerPlugin },
     rules: {
-      "custom-logger/suggest-custom-logger": "warning",
+      "custom-logger/suggest-custom-logger": "warn",
     },
   },
 ];
